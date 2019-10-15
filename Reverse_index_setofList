@@ -1,0 +1,12 @@
+def reverse_index_collection(x):
+  indexSet=[]
+  for i in x:
+    j=x.index(i)
+    indexSet.append(j)
+  print(indexSet.reverse())
+Alphabets=['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+reverse_index_collection(Alphabets)
+
+#standard output:
+#[25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+  
